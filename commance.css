@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+}
+body
+{
+background-image: url(mainbg.jpg);
+background-size:cover;
+background-attachment: fixed;
+}
+
+div{
+    display: block;
+    margin-left: 41vw;
+    margin-top: 30vh;
+}
+.play
+{
+    position: absolute;
+    background-image: url(mainbg.jpg);
+    background-size:cover;
+    width: 90vw;
+    margin: 2% 5% 0% 5% ;
+    height: 140vh;
+    top: 0vh;
+    border-radius: 0.5em;
+    box-shadow: 1.5em 1em 10px rgb(53, 52, 52);
+}
+
+
+.hereGame
+{
+    display: block;
+    margin: 15% 28%;
+    width:80vh;
+}
+.line0,.line1,.line2{
+    display: flex;
+    margin:1em 0em;
+    width: 100%;
+}
+
+img{
+    width:15em;
+    margin:1em ;
+    
+    height: 10em;
+}
+section{
+    height: 12em;
+    box-shadow: 10px 20px 20px rgb(31, 30, 30);
+}
+
+a{
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    color:#9A0680;
+    border:solid  #9A0680;
+    padding: 0.5em 1em;
+    font-size: 1.7em;
+    font-family: cursive;
+    border-radius: 0.2em;
+    width: 20%;
+    margin-top: 2%;
+    transition-duration: 1000ms;
+}
+a:hover{
+    background-color:#9A0680 ;
+    color:#fff;
+    box-shadow:10px 10px #160040;
+}
+p{
+    color: rgba(148, 30, 245, 0.7);
+    background-color: rgba(69, 252, 191, 0.7);
+}
+h1,h2{
+    position: absolute;
+    font-family: cursive;
+    left :2%;
+}
+h1{
+    
+    color: #230063;
+    font-size: 3em;
+    top: 2%;
+}
+.title{
+    color: #9A0680;
+    text-shadow: 5px 5px 15px #47314b;
+    font-size: 4em;
+    left:33%;
+    text-decoration: underline;
+}
+h2{
+    color: #230063;
+    font-size: 3em;
+    top: 10%;
+
+}
+button{
+    position: absolute;
+    left: 50%;
+    padding: 0.2em 0.4em;
+    font-family: cursive;
+    font-size: 2em;
+    color: white;
+    border-radius: 0.1em;
+    justify-content: center;
+    border-width: 0.01px;
+    box-shadow:10px 10px 10px gray;
+    transition-duration: 1500ms;
+    border: none;
+}
+.resume
+{
+    top: 2vh;
+    left: 35%;
+    background-color: rgb(14, 189, 72);
+}
+.resume:hover{
+    background-color: rgb(74, 231, 113)
+}
+
+.pause{
+    top: 2vh;
+    background-color: crimson;
+}
+.pause:hover{
+    background-color: rgb(255, 25, 71);
+}
+.fermer{
+    text-align: center;
+    padding: 0.2em 0.7em;
+    background-color: grey;
+    left: 92%;
+    top:2%;
+}
+.btnLevel{
+    display: absolute;
+    background-color: rgba(0, 219, 183, 0.856);
+    left :85%;
+    top:92%
+}
+h4{
+    position: absolute;
+    font-family: cursive;
+    color:#9A0680;
+    font-size:3em ;
+
+    left: 5%;
+    top:92%;
+    
+
+}

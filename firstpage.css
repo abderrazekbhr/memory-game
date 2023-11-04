@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin:0;
+}
+body
+{
+background-image: url(mainbg.jpg);
+background-size: cover;
+background-attachment: fixed;
+}
+div{
+    display: absolute;
+    margin-left: 40vw;
+    margin-top: 40vh;
+}
+a{
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    color:#9A0680;
+    border:solid  #9A0680;
+    padding: 0.5em 1em;
+    font-size: 1.7em;
+    font-family: cursive;
+    border-radius: 0.2em;
+    width: 20%;
+    margin-top: 2%;
+    transition-duration: 1000ms;
+}
+a:hover{
+    background-color:#9A0680 ;
+    color:#fff;
+    box-shadow:10px 10px #160040;
+}

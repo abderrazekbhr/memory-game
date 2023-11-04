@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+body{
+    background-image: url(mainbg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+div{
+    width: 60%;
+    position: absolute;
+    left: 20vw;
+    top: 20vh;
+    border: solid #9A0680;
+    color:#9A0680;
+    transition-duration: 1000ms;
+    border-radius: 1em;
+}
+h2{
+
+    font-size: 2em;
+    font-family: cursive;
+    margin:1.5em 0em;
+    
+}
+p{
+
+    font-size: 1.1em;
+    font-family: cursive;
+    margin:0em 0.5em 1em 0.5em;
+    
+}
+div:hover{
+    box-shadow:10px 10px #160040;
+    background-color: #9A0680;    
+    color: white;
+
+}
